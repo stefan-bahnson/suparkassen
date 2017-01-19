@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Suparkassen!</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="assets/font-awesome.min.css">
+</head>
+<body>
+
+<header>
+  <img src="./assets/suparkassen_logo_white.png" alt="logo" class="logo">
+
+  <div class="cart">
+    <div class="cart-count">
+      <div id="badge" class="badge">0</div>
+      <div id="total-price" class="total-price">0 SEK</div>
+    </div>
+    <i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
+  </div>
+</header>
+<div id="products"></div>
+<button onclick="handleCheckout();">PROCEED TO CHECKOUT</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
