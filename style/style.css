@@ -156,5 +156,21 @@ input:focus {
   outline: none;
 }
 
+.info-container {
+  display: flex;
+}
+
+.info-container .label {
+  color: hotpink;
+  padding: 20px;
+}
+
+.category {
+  display: inline-block;
+  background-color: #383838;
+  color: white;
+  padding: 0 12px;
+  border-radius: 12px;
+}
 
 

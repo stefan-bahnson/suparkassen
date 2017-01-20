@@ -66,7 +66,7 @@ function updateCart() {
   var totalPrice = 0;
   cart.forEach(function (item) {
     count += item.quantity;
-    totalPrice = item.quantity * item.price;
+    totalPrice += item.quantity * item.price;
   });
 
   $('#badge').text('x ' + count);
